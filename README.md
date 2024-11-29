@@ -1,10 +1,10 @@
 # Sample Code Collection from Apple (WWDC)
 
-This repository contains a collection of sample codes provided by Apple Inc. from various previous Worldwide Developers Conferences (WWDC) for educational and reference purposes. The code snippets included here cover a wide range of topics and showcase the use of Apple’s tools and technologies.
+Welcome to the Sample Code Collection from Apple! This repository houses a variety of sample codes provided by Apple Inc. during previous Worldwide Developers Conferences (WWDC). These snippets serve educational and reference purposes, showcasing the use of Apple’s tools and technologies across diverse topics.
 
-## License
+## License Information
 
-These code samples are provided under the following license:
+The code samples in this repository are licensed under the following terms:
 
 ```
 Copyright 2020-2024 Apple Inc.
@@ -20,16 +20,32 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-By using this code, please ensure that you retain the above copyright notice, the list of conditions, and the disclaimer if you redistribute or share any portion of this code.
+By using this code, you agree to comply with the above license terms. Make sure to retain the copyright notice, list of conditions, and disclaimer when redistributing or sharing any part of this code.
 
-### Note on Individual Projects
+### Individual Project Notices
 
-Each small source code project in this repository also includes its own separate copyright notice, which may have distinct copyright years. Please check the individual project files for specific copyright information.
+Note that each source code project may have its own copyright notice with specific years. Please check individual project files for updated copyright information.
+
+## Branch Structure
+
+The code samples are organized into separate branches according to their release year. You can switch to the relevant branch to access specific examples from a given WWDC:
+
+- `WWDC2024`
+- `WWDC2023`
+- `WWDC2022`
+- `WWDC2021`
+- `WWDC2020`
+
+To check out a specific branch, use the following command:
+
+```bash
+git checkout <branch-name>
+```
+*Replace `<branch-name>` with your desired branch, e.g., `git checkout WWDC2023`.*
 
 ## Official WWDC Resources
 
-Below are the links to the official WWDC sessions and resources where the source code in this repository is derived:
-
+For further resources and the official Apple WWDC sessions related to the samples in this repository, visit:
 
 - [WWDC 2024](https://developer.apple.com/sample-code/wwdc/2024/) 
 - [WWDC 2023](https://developer.apple.com/sample-code/wwdc/2023/) 
@@ -37,23 +53,35 @@ Below are the links to the official WWDC sessions and resources where the source
 - [WWDC 2021](https://developer.apple.com/sample-code/wwdc/2021/) 
 - [WWDC 2020](https://developer.apple.com/sample-code/wwdc/2020/)
 
-You can explore these resources for more information and additional sample codes.
+Explore these links for additional information and sample codes.
 
-## Usage
+## Usage Instructions
+
+To utilize the code samples:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/CongLeSolutionX/Apple-Sample-Code
+   git clone https://github.com/CongLeSolutionX/Apple-Sample-Code.git
    ```
 
-2. Browse through the sample codes in the repository.
+2. Navigate into the cloned directory:
+   ```bash
+   cd Apple-Sample-Code
+   ```
 
-3. Feel free to use them for your own learning and projects as long as you comply with the licensing terms above.
+3. Check out the desired branch:
+   ```bash
+   git checkout <branch-name>
+   ```
 
-## Contribution
+4. Browse through the sample codes within that branch.
 
-If you would like to contribute to this collection or suggest additional samples, please open an issue or submit a pull request.
+5. You are welcome to use them for your own learning and projects, provided you adhere to the licensing terms.
+
+## Contribution Guidelines
+
+Contributions are welcomed! If you have suggestions for additional samples or would like to enhance the collection, please open an issue or submit a pull request.
 
 ## Disclaimer
 
-This repository is not officially affiliated with Apple Inc. The code samples provided here are sourced from Apple's official resources from various WWDC events and are shared for your reference and educational purposes only.
+This repository is **not** officially affiliated with Apple Inc. The code samples are sourced from Apple's official WWDC resources and are shared solely for educational and reference purposes.
